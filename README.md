@@ -1,5 +1,5 @@
 ﻿# grand-turtle-racing
-3D racing game using a custom engine inspired by the engine built by gaspardpetit (https://github.com/DDJV-INF740/GameEngine-src).
+3D racing game using a custom game engine I designed and built inspired by the engine built by @gaspardpetit (https://github.com/DDJV-INF740/GameEngine-src) and using the DirectX 10 knowledge provided by François Jean.
 
 # Dev
 Follow these instructions in order to compile the game using Visual Studio 2017 Community Edition.

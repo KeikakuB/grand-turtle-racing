@@ -1,0 +1,661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Code">
+      <UniqueIdentifier>{cedea46f-918a-428c-9af8-a875cfc4d226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\CPP">
+      <UniqueIdentifier>{cb769cb8-842f-48a0-8456-28f42ebf890d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers">
+      <UniqueIdentifier>{3c26f951-4f40-487f-a4ad-a2a593e910ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Components">
+      <UniqueIdentifier>{05f75152-e855-4b72-9d23-8844885c970c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Components\Infrastructure">
+      <UniqueIdentifier>{2597660f-1eb9-4326-837e-757fb47d4272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Components\GameObject">
+      <UniqueIdentifier>{e8ed3858-1616-4458-b15c-a7bf1241be84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Components\GameObject\Update">
+      <UniqueIdentifier>{80e1d63f-8121-4db5-b3fb-dbd9a52a488f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Components\GameObject\Health">
+      <UniqueIdentifier>{b25857d0-f017-4f69-bf01-a7e9112e0c5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Components\GameObject\Render">
+      <UniqueIdentifier>{c63944ab-7583-40ef-bd25-c1d80aebe6a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Components\GameObject\Pose">
+      <UniqueIdentifier>{4b4165b3-f68e-4af3-8d41-0fcfe95b9499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Components\Managers">
+      <UniqueIdentifier>{ce0121c5-0ed2-4d8b-a7cd-74e4f877c43c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Components\Managers\Render">
+      <UniqueIdentifier>{c584a0f6-0eed-4fc4-bbc8-6b38623bc33e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Components\Managers\Update">
+      <UniqueIdentifier>{267f3d9d-c602-475c-9765-eb228a5dfc07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Components\Managers\Input">
+      <UniqueIdentifier>{f3f85772-e04b-4ca1-b450-4553233c0e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\GameObjects">
+      <UniqueIdentifier>{597bb2cc-2cdd-42be-bec6-d49418e0ff17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\GameObjects\Infrastructure">
+      <UniqueIdentifier>{491818a8-d1c9-4f97-8f89-e14faeb1d6eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Infrastructure">
+      <UniqueIdentifier>{37222eac-9492-4904-a656-afecd9157be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Config">
+      <UniqueIdentifier>{b1cd7909-ea83-41b0-b728-97c473b597a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Components\Managers\World">
+      <UniqueIdentifier>{f63d8f72-aa05-4979-a2d2-2297b726bc49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Components\Managers\Camera">
+      <UniqueIdentifier>{bd20a4b2-fb7f-450d-925e-ff44efd150c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Components\Managers\Texture">
+      <UniqueIdentifier>{9f43bc07-0f42-44a2-aa6c-241d0f4b4f69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\PM3D">
+      <UniqueIdentifier>{4add4afb-822f-4a40-a555-a0b281c3e395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Components\Managers\Time">
+      <UniqueIdentifier>{e91c146d-dbc1-403b-bbd6-7054340b88f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Components\Managers\Simulation">
+      <UniqueIdentifier>{30aeeae3-2f4f-424b-b9d6-90388e37e686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Components\GameObject\Simulation">
+      <UniqueIdentifier>{c62dd405-673e-44a4-bb41-66346a009111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Components\GameObject\Simulation\CollisionHandlers">
+      <UniqueIdentifier>{27cb3bd7-eec5-4e7e-8849-dea7bfc69167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Components\GameObject\Simulation\CollisionHandlers\Infrastructure">
+      <UniqueIdentifier>{e7f52405-8f08-4b83-822f-c410f48a8c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Components\GameObject\Target">
+      <UniqueIdentifier>{6de5ad62-56f8-4a5d-bfa8-54f75b37e6c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Components\Managers\Sprite">
+      <UniqueIdentifier>{71013a85-8f13-4c7f-a3cf-e9f013a010e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Components\Managers\GUI">
+      <UniqueIdentifier>{d713f52c-d048-4e5c-af7f-ddef5aea3f97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Components\Managers\GameLogic">
+      <UniqueIdentifier>{f8d77974-80f8-4ca4-b3e9-1aa4e2907782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Components\Managers\PostEffect">
+      <UniqueIdentifier>{c34b5ea6-95ff-43c9-899c-75425f81470a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Headers\Components\Managers\Octree">
+      <UniqueIdentifier>{4e8da8b3-45b4-4002-a3cf-5164b04d148c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyGo.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="FoodGo.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthComponent.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ObstacleGo.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="TurtleCollisionHandler.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="TurtleGo.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectComponent.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSingleton.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="PoseComponent.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateManager.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManagerComponent.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderComponent.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockRenderComponent.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Sandbank.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightMapRenderComponent.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="LambdaUpdateComponent.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigSingleton.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="LoaderSingleton.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Ids.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldManager.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ICameraManager.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="IHealthComponentInterface.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="IInputManager.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="IUpdateManager.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="IUpdateComponentInterface.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ITextureManager.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="IRenderManager.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="IRenderComponentInterface.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="IPoseComponentInterface.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="IWorldManager.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SimulationManager.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ISimulationManager.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ChargeurAssimp.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="dispositifD3D11.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoDispositif.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="MoteurWindows.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="PetitMoteur3D.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="sommetbloc.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClock.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="IColliderComponentInterface.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="IDynamicSimulationComponentInterface.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="IRigidSimulationComponentInterface.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="IStaticSimulationComponentInterface.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ITimeManager.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SimulationComponentBase.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetComponent.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ITargetComponentInterface.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdPersonCamera.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstPersonCamera.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsInputManager.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="TurtleUpdateComponent.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="InvisibleBox.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="BillboardRenderComponent.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="BillboardGo.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ISpriteManager.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyboxRenderComponent.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyboxGo.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiManager.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="IGuiManager.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="TextHolder.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="IGameLogicManager.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogicManager.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="PostEffectManager.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="PanneauPE.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="IPostEffectManager.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerZone.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerZoneCollisionHandler.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CelMeshRenderComponent.cpp">
+      <Filter>Code\CPP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameSingleton.h">
+      <Filter>Code\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderComponent.h">
+      <Filter>Code\Headers\Components\GameObject\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockRenderComponent.h">
+      <Filter>Code\Headers\Components\GameObject\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="HeightMapRenderComponent.h">
+      <Filter>Code\Headers\Components\GameObject\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="PoseComponent.h">
+      <Filter>Code\Headers\Components\GameObject\Pose</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManagerComponent.h">
+      <Filter>Code\Headers\Components\Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectComponent.h">
+      <Filter>Code\Headers\Components\Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentObject.h">
+      <Filter>Code\Headers\Components\Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="IComponent.h">
+      <Filter>Code\Headers\Components\Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameManager.h">
+      <Filter>Code\Headers\Components\Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="IUpdateManager.h">
+      <Filter>Code\Headers\Components\Managers\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateManager.h">
+      <Filter>Code\Headers\Components\Managers\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>Code\Headers\Components\Managers\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderManager.h">
+      <Filter>Code\Headers\Components\Managers\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="LambdaUpdateComponent.h">
+      <Filter>Code\Headers\Components\GameObject\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="IInputManager.h">
+      <Filter>Code\Headers\Components\Managers\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthComponent.h">
+      <Filter>Code\Headers\Components\GameObject\Health</Filter>
+    </ClInclude>
+    <ClInclude Include="TurtleCollisionHandler.h">
+      <Filter>Code\Headers\Components\GameObject\Simulation\CollisionHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="ICollisionHandler.h">
+      <Filter>Code\Headers\Components\GameObject\Simulation\CollisionHandlers\Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionHandler.h">
+      <Filter>Code\Headers\Components\GameObject\Simulation\CollisionHandlers\Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyGo.h">
+      <Filter>Code\Headers\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="FoodGo.h">
+      <Filter>Code\Headers\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ObstacleGo.h">
+      <Filter>Code\Headers\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sandbank.h">
+      <Filter>Code\Headers\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="TurtleGo.h">
+      <Filter>Code\Headers\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameObject.h">
+      <Filter>Code\Headers\GameObjects\Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Code\Headers\GameObjects\Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Code\Headers\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="LoaderSingleton.h">
+      <Filter>Code\Headers\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsStructs.h">
+      <Filter>Code\Headers\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigSingleton.h">
+      <Filter>Code\Headers\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Ids.h">
+      <Filter>Code\Headers\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="IWorldManager.h">
+      <Filter>Code\Headers\Components\Managers\World</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldManager.h">
+      <Filter>Code\Headers\Components\Managers\World</Filter>
+    </ClInclude>
+    <ClInclude Include="ICamera.h">
+      <Filter>Code\Headers\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Meta.h">
+      <Filter>Code\Headers\Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="ICameraManager.h">
+      <Filter>Code\Headers\Components\Managers\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>Code\Headers\Components\Managers\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="IPoseComponentInterface.h">
+      <Filter>Code\Headers\Components\GameObject\Pose</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderComponentInterface.h">
+      <Filter>Code\Headers\Components\GameObject\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="IHealthComponentInterface.h">
+      <Filter>Code\Headers\Components\GameObject\Health</Filter>
+    </ClInclude>
+    <ClInclude Include="IUpdateComponentInterface.h">
+      <Filter>Code\Headers\Components\GameObject\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Code\Headers\Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="ITextureManager.h">
+      <Filter>Code\Headers\Components\Managers\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Code\Headers\Components\Managers\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SimulationManager.h">
+      <Filter>Code\Headers\Components\Managers\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="ISimulationManager.h">
+      <Filter>Code\Headers\Components\Managers\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="PxPhysicsAPI.forward.h">
+      <Filter>Code\Headers\Components\Managers\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Code\Headers\PM3D</Filter>
+    </ClInclude>
+    <ClInclude Include="chargeur.h">
+      <Filter>Code\Headers\PM3D</Filter>
+    </ClInclude>
+    <ClInclude Include="ChargeurAssimp.h">
+      <Filter>Code\Headers\PM3D</Filter>
+    </ClInclude>
+    <ClInclude Include="dispositif.h">
+      <Filter>Code\Headers\PM3D</Filter>
+    </ClInclude>
+    <ClInclude Include="dispositifD3D11.h">
+      <Filter>Code\Headers\PM3D</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoDispositif.h">
+      <Filter>Code\Headers\PM3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Code\Headers\PM3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Moteur.h">
+      <Filter>Code\Headers\PM3D</Filter>
+    </ClInclude>
+    <ClInclude Include="MoteurWindows.h">
+      <Filter>Code\Headers\PM3D</Filter>
+    </ClInclude>
+    <ClInclude Include="PetitMoteur3D.h">
+      <Filter>Code\Headers\PM3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Code\Headers\PM3D</Filter>
+    </ClInclude>
+    <ClInclude Include="sommetbloc.h">
+      <Filter>Code\Headers\PM3D</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Code\Headers\PM3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Code\Headers\PM3D</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>Code\Headers\Components\Managers\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="ITimeManager.h">
+      <Filter>Code\Headers\Components\Managers\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClockBase.h">
+      <Filter>Code\Headers\Components\Managers\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClock.h">
+      <Filter>Code\Headers\Components\Managers\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="IColliderComponentInterface.h">
+      <Filter>Code\Headers\Components\GameObject\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="IStaticSimulationComponentInterface.h">
+      <Filter>Code\Headers\Components\GameObject\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="IDynamicSimulationComponentInterface.h">
+      <Filter>Code\Headers\Components\GameObject\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="IRigidSimulationComponentInterface.h">
+      <Filter>Code\Headers\Components\GameObject\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="SimulationComponentBase.h">
+      <Filter>Code\Headers\Components\GameObject\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionTypes.h">
+      <Filter>Code\Headers\Components\Managers\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetComponent.h">
+      <Filter>Code\Headers\Components\GameObject\Target</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPersonCamera.h">
+      <Filter>Code\Headers\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstPersonCamera.h">
+      <Filter>Code\Headers\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ITargetComponentInterface.h">
+      <Filter>Code\Headers\Components\GameObject\Target</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Code\Headers\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsInputManager.h">
+      <Filter>Code\Headers\Components\Managers\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="TurtleUpdateComponent.h">
+      <Filter>Code\Headers\Components\GameObject\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockEffectRenderComponent.h">
+      <Filter>Code\Headers\Components\GameObject\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="InvisibleBox.h">
+      <Filter>Code\Headers\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicBillboard.h">
+      <Filter>Code\Headers\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyboxRenderComponent.h">
+      <Filter>Code\Headers\Components\GameObject\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyboxGo.h">
+      <Filter>Code\Headers\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ISpriteManager.h">
+      <Filter>Code\Headers\Components\Managers\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h">
+      <Filter>Code\Headers\Components\Managers\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="IGuiManager.h">
+      <Filter>Code\Headers\Components\Managers\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiManager.h">
+      <Filter>Code\Headers\Components\Managers\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="TextHolder.h">
+      <Filter>Code\Headers\Components\Managers\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogicManager.h">
+      <Filter>Code\Headers\Components\Managers\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameLogicManager.h">
+      <Filter>Code\Headers\Components\Managers\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="PostEffectManager.h">
+      <Filter>Code\Headers\Components\Managers\PostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="PanneauPE.h">
+      <Filter>Code\Headers\Components\Managers\PostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="IPostEffectManager.h">
+      <Filter>Code\Headers\Components\Managers\PostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerZone.h">
+      <Filter>Code\Headers\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerZoneCollisionHandler.h">
+      <Filter>Code\Headers\Components\GameObject\Simulation\CollisionHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="CelMeshRenderComponent.h">
+      <Filter>Code\Headers\Components\GameObject\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="OctreeF.h">
+      <Filter>Code\Headers\Components\Managers\Octree</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PetitMoteur3D.ico">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="small.ico">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PetitMoteur3D.rc">
+      <Filter>Fichiers de ressources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

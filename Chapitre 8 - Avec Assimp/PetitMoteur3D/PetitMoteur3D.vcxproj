@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\fx11_desktop_2015.2015.7.29.1\build\native\fx11_desktop_2015.props" Condition="Exists('..\packages\fx11_desktop_2015.2015.7.29.1\build\native\fx11_desktop_2015.props')" />
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B1AC268F-1A62-419D-B42D-E4A2796160CF}</ProjectGuid>
+    <RootNamespace>PetitMoteur3D</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfAtl>Static</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfAtl>Static</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="props\directx.props" />
+    <Import Project="props\boost.props" />
+    <Import Project="props\command_line_params_release.props" />
+    <Import Project="props\PhysX.props" />
+    <Import Project="props\postbuild.props" />
+    <Import Project="props\postbuild_release.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="props\directx.props" />
+    <Import Project="props\boost.props" />
+    <Import Project="props\command_line_params_debug.props" />
+    <Import Project="props\PhysX.props" />
+    <Import Project="props\postbuild.props" />
+    <Import Project="props\postbuild_debug.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ExecutablePath>$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Full</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CelMeshRenderComponent.cpp" />
+    <ClCompile Include="GameLogicManager.cpp" />
+    <ClCompile Include="GuiManager.cpp" />
+    <ClCompile Include="IGameLogicManager.cpp" />
+    <ClCompile Include="IGuiManager.cpp" />
+    <ClCompile Include="IPostEffectManager.cpp" />
+    <ClCompile Include="PanneauPE.cpp" />
+    <ClCompile Include="PostEffectManager.cpp" />
+    <ClCompile Include="TextHolder.cpp" />
+    <ClCompile Include="SpriteManager.cpp" />
+    <ClCompile Include="BillboardGo.cpp" />
+    <ClCompile Include="BillboardRenderComponent.cpp" />
+    <ClCompile Include="BlockRenderComponent.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CameraManager.cpp" />
+    <ClCompile Include="ChargeurAssimp.cpp" />
+    <ClCompile Include="ConfigSingleton.cpp" />
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="dispositifD3D11.cpp" />
+    <ClCompile Include="EnemyGo.cpp" />
+    <ClCompile Include="FirstPersonCamera.cpp" />
+    <ClCompile Include="FoodGo.cpp" />
+    <ClCompile Include="GameClock.cpp" />
+    <ClCompile Include="GameManagerComponent.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GameObjectComponent.cpp" />
+    <ClCompile Include="GameSingleton.cpp" />
+    <ClCompile Include="HealthComponent.cpp" />
+    <ClCompile Include="ICameraManager.cpp" />
+    <ClCompile Include="IColliderComponentInterface.cpp" />
+    <ClCompile Include="Ids.cpp" />
+    <ClCompile Include="IDynamicSimulationComponentInterface.cpp" />
+    <ClCompile Include="IHealthComponentInterface.cpp" />
+    <ClCompile Include="IInputManager.cpp" />
+    <ClCompile Include="InfoDispositif.cpp" />
+    <ClCompile Include="InvisibleBox.cpp" />
+    <ClCompile Include="ISpriteManager.cpp" />
+    <ClCompile Include="SkyboxGo.cpp" />
+    <ClCompile Include="SkyboxRenderComponent.cpp" />
+    <ClCompile Include="TriggerZone.cpp" />
+    <ClCompile Include="TriggerZoneCollisionHandler.cpp" />
+    <ClCompile Include="TurtleUpdateComponent.cpp" />
+    <ClCompile Include="WindowsInputManager.cpp" />
+    <ClCompile Include="IRigidSimulationComponentInterface.cpp" />
+    <ClCompile Include="ISimulationManager.cpp" />
+    <ClCompile Include="IPoseComponentInterface.cpp" />
+    <ClCompile Include="IRenderComponentInterface.cpp" />
+    <ClCompile Include="IRenderManager.cpp" />
+    <ClCompile Include="IStaticSimulationComponentInterface.cpp" />
+    <ClCompile Include="ITargetComponentInterface.cpp" />
+    <ClCompile Include="ITextureManager.cpp" />
+    <ClCompile Include="ITimeManager.cpp" />
+    <ClCompile Include="IUpdateComponentInterface.cpp" />
+    <ClCompile Include="IUpdateManager.cpp" />
+    <ClCompile Include="IWorldManager.cpp" />
+    <ClCompile Include="LambdaUpdateComponent.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="LoaderSingleton.cpp" />
+    <ClCompile Include="Math.cpp" />
+    <ClCompile Include="MoteurWindows.cpp" />
+    <ClCompile Include="ObstacleGo.cpp" />
+    <ClCompile Include="PetitMoteur3D.cpp" />
+    <ClCompile Include="SimulationManager.cpp" />
+    <ClCompile Include="PoseComponent.cpp" />
+    <ClCompile Include="MeshRenderComponent.cpp" />
+    <ClCompile Include="RenderManager.cpp" />
+    <ClCompile Include="SimulationComponentBase.cpp" />
+    <ClCompile Include="sommetbloc.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Sandbank.cpp" />
+    <ClCompile Include="HeightMapRenderComponent.cpp" />
+    <ClCompile Include="TargetComponent.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="ThirdPersonCamera.cpp" />
+    <ClCompile Include="TimeManager.cpp" />
+    <ClCompile Include="TurtleCollisionHandler.cpp" />
+    <ClCompile Include="TurtleGo.cpp" />
+    <ClCompile Include="UpdateManager.cpp" />
+    <ClCompile Include="WorldManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CelMeshRenderComponent.h" />
+    <ClInclude Include="GameLogicManager.h" />
+    <ClInclude Include="GuiManager.h" />
+    <ClInclude Include="IGameLogicManager.h" />
+    <ClInclude Include="IGuiManager.h" />
+    <ClInclude Include="IPostEffectManager.h" />
+    <ClInclude Include="OctreeF.h" />
+    <ClInclude Include="PanneauPE.h" />
+    <ClInclude Include="PostEffectManager.h" />
+    <ClInclude Include="TextHolder.h" />
+    <ClInclude Include="SpriteManager.h" />
+    <ClInclude Include="BasicBillboard.h" />
+    <ClInclude Include="BlockEffectRenderComponent.h" />
+    <ClInclude Include="BlockRenderComponent.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CameraManager.h" />
+    <ClInclude Include="chargeur.h" />
+    <ClInclude Include="ChargeurAssimp.h" />
+    <ClInclude Include="CollisionHandler.h" />
+    <ClInclude Include="CollisionTypes.h" />
+    <ClInclude Include="ComponentObject.h" />
+    <ClInclude Include="EnemyGo.h" />
+    <ClInclude Include="FirstPersonCamera.h" />
+    <ClInclude Include="FoodGo.h" />
+    <ClInclude Include="GameClock.h" />
+    <ClInclude Include="GameClockBase.h" />
+    <ClInclude Include="GameManagerComponent.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameObjectComponent.h" />
+    <ClInclude Include="GameSingleton.h" />
+    <ClInclude Include="HealthComponent.h" />
+    <ClInclude Include="ICamera.h" />
+    <ClInclude Include="ICameraManager.h" />
+    <ClInclude Include="IColliderComponentInterface.h" />
+    <ClInclude Include="ICollisionHandler.h" />
+    <ClInclude Include="IComponent.h" />
+    <ClInclude Include="Ids.h" />
+    <ClInclude Include="ConfigSingleton.h" />
+    <ClInclude Include="dispositif.h" />
+    <ClInclude Include="dispositifD3D11.h" />
+    <ClInclude Include="IDynamicSimulationComponentInterface.h" />
+    <ClInclude Include="IGameManager.h" />
+    <ClInclude Include="IGameObject.h" />
+    <ClInclude Include="IHealthComponentInterface.h" />
+    <ClInclude Include="IInputManager.h" />
+    <ClInclude Include="InfoDispositif.h" />
+    <ClInclude Include="InvisibleBox.h" />
+    <ClInclude Include="ISpriteManager.h" />
+    <ClInclude Include="SkyboxGo.h" />
+    <ClInclude Include="SkyboxRenderComponent.h" />
+    <ClInclude Include="TriggerZone.h" />
+    <ClInclude Include="TriggerZoneCollisionHandler.h" />
+    <ClInclude Include="TurtleUpdateComponent.h" />
+    <ClInclude Include="WindowsInputManager.h" />
+    <ClInclude Include="IRigidSimulationComponentInterface.h" />
+    <ClInclude Include="ISimulationManager.h" />
+    <ClInclude Include="IPoseComponentInterface.h" />
+    <ClInclude Include="IRenderComponentInterface.h" />
+    <ClInclude Include="IRenderManager.h" />
+    <ClInclude Include="IStaticSimulationComponentInterface.h" />
+    <ClInclude Include="ITargetComponentInterface.h" />
+    <ClInclude Include="ITextureManager.h" />
+    <ClInclude Include="ITimeManager.h" />
+    <ClInclude Include="IUpdateComponentInterface.h" />
+    <ClInclude Include="IUpdateManager.h" />
+    <ClInclude Include="IWorldManager.h" />
+    <ClInclude Include="LambdaUpdateComponent.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="LoaderSingleton.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="Math.h" />
+    <ClInclude Include="Moteur.h" />
+    <ClInclude Include="MoteurWindows.h" />
+    <ClInclude Include="ObstacleGo.h" />
+    <ClInclude Include="PetitMoteur3D.h" />
+    <ClInclude Include="PxPhysicsAPI.forward.h" />
+    <ClInclude Include="SimulationManager.h" />
+    <ClInclude Include="PoseComponent.h" />
+    <ClInclude Include="Meta.h" />
+    <ClInclude Include="MeshRenderComponent.h" />
+    <ClInclude Include="RenderManager.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SettingsStructs.h" />
+    <ClInclude Include="SimulationComponentBase.h" />
+    <ClInclude Include="sommetbloc.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Sandbank.h" />
+    <ClInclude Include="HeightMapRenderComponent.h" />
+    <ClInclude Include="TargetComponent.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="ThirdPersonCamera.h" />
+    <ClInclude Include="TimeManager.h" />
+    <ClInclude Include="TurtleCollisionHandler.h" />
+    <ClInclude Include="TurtleGo.h" />
+    <ClInclude Include="UpdateManager.h" />
+    <ClInclude Include="util.h" />
+    <ClInclude Include="WorldManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="PetitMoteur3D.ico" />
+    <None Include="small.ico" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PetitMoteur3D.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\Assimp.redist.3.0.0\build\native\Assimp.redist.targets" Condition="Exists('..\packages\Assimp.redist.3.0.0\build\native\Assimp.redist.targets')" />
+    <Import Project="..\packages\Assimp.3.0.0\build\native\Assimp.targets" Condition="Exists('..\packages\Assimp.3.0.0\build\native\Assimp.targets')" />
+    <Import Project="..\packages\fx11_desktop_2015.2015.7.29.1\build\native\fx11_desktop_2015.targets" Condition="Exists('..\packages\fx11_desktop_2015.2015.7.29.1\build\native\fx11_desktop_2015.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Assimp.redist.3.0.0\build\native\Assimp.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Assimp.redist.3.0.0\build\native\Assimp.redist.targets'))" />
+    <Error Condition="!Exists('..\packages\Assimp.3.0.0\build\native\Assimp.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Assimp.3.0.0\build\native\Assimp.targets'))" />
+    <Error Condition="!Exists('..\packages\fx11_desktop_2015.2015.7.29.1\build\native\fx11_desktop_2015.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\fx11_desktop_2015.2015.7.29.1\build\native\fx11_desktop_2015.props'))" />
+    <Error Condition="!Exists('..\packages\fx11_desktop_2015.2015.7.29.1\build\native\fx11_desktop_2015.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\fx11_desktop_2015.2015.7.29.1\build\native\fx11_desktop_2015.targets'))" />
+  </Target>
+</Project>

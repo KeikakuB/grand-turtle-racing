@@ -1,0 +1,182 @@
+{
+  "shaders": {
+    "vertex": [
+  {
+        "id": "MiniPhongVS",
+        "name": "MiniPhongVS",
+        "target": "vs_4_0",
+        "filename": ".\\data\\MiniPhong.vhl"
+      }
+    ],
+    "pixel": [
+      {
+        "id": "MiniPhongPS",
+        "name": "MiniPhongPS",
+        "target": "ps_4_0",
+        "filename": ".\\data\\MiniPhong.phl"
+      }
+    ],
+    "effect": [
+      {
+        "id": "MiniPhong",
+        "name": "MiniPhong",
+        "target": "fx_5_0",
+        "filename": ".\\data\\MiniPhong.fx"
+      },
+      {
+        "id": "CelShading",
+        "name": "CelShading",
+        "target": "fx_5_0",
+        "filename": ".\\data\\CelShading.fx"
+      },
+      {
+        "id": "Skybox",
+        "name": "Skybox",
+        "target": "fx_5_0",
+        "filename": ".\\data\\Skybox.fx"
+      }
+    ]
+  },
+  "post_effect_techniques":
+  [
+    {
+      "id" : "Nul"
+    },
+	  {
+      "id" : "RadialBlur"
+    },
+	  {
+      "id" : "GreyScale"
+    },
+	  {
+      "id" : "Sepia"
+    },
+	  {
+      "id" : "InversedColors"
+    },
+	  {
+      "id" : "CombinedColors"
+    },
+	  {
+      "id" : "GradualBlur"
+    },
+	  {
+      "id" : "GrowingPeephole"
+    },
+	  {
+      "id" : "HorizontalShuttersClose"
+    },
+	  {
+      "id" : "HorizontalShuttersOpen"
+    },
+	  {
+      "id" : "RageVision"
+    },
+    {
+      "id" : "Tiles"
+    }
+  ],
+  "shader_configs":
+  [
+    {
+      "id": "basic",
+      "transparency": 1.0
+    },
+    {
+      "id": "basic_semi_transparent",
+      "transparency": 0.5
+    }
+  ],
+  "models": [
+    {
+      "id": "lexus",
+      "filename": "obj_lexus.obj",
+      "relative_path": ".\\data\\models\\lexus\\",
+      "left_hand": false,
+      "winding_order": true,
+      "shader_config_ref": "basic",
+      "texture": { "filename": "lexus_texture.dds" }
+    },
+    {
+      "id": "turtle",
+      "filename": "sea_turtle.obj",
+      "relative_path": ".\\data\\models\\Sea Turtle\\",
+      "left_hand": false,
+      "winding_order": true,
+      "shader_config_ref": "basic",
+      "texture": { "filename": "sea_turtle.dds" }
+    },
+    {
+      "id": "sandcastle",
+      "filename": "sand_castle.obj",
+      "relative_path": ".\\data\\models\\Castle\\",
+      "left_hand": false,
+      "winding_order": false,
+      "shader_config_ref": "basic",
+      "texture": { "filename": "sand_castle.dds" }
+    },
+    {
+      "id": "jellyfish",
+      "filename": "jellyfish.obj",
+      "relative_path": ".\\data\\models\\Jellyfish\\",
+      "left_hand": false,
+      "winding_order": true,
+      "shader_config_ref": "basic",
+      "texture": { "filename": "jellyfish.dds" }
+    },
+    {
+      "id": "bucket",
+      "filename": "bucket.obj",
+      "relative_path": ".\\data\\models\\Beach_Stuff\\",
+      "left_hand": false,
+      "winding_order": true,
+      "shader_config_ref": "basic",
+      "texture": { "filename": "bucket.dds" }
+    },
+    {
+      "id": "rake",
+      "filename": "rake.obj",
+      "relative_path": ".\\data\\models\\Beach_Stuff\\",
+      "left_hand": false,
+      "winding_order": true,
+      "shader_config_ref": "basic",
+      "texture": { "filename": "rake.dds" }
+    },
+    {
+      "id": "sifter",
+      "filename": "sifter.obj",
+      "relative_path": ".\\data\\models\\Beach_Stuff\\",
+      "left_hand": false,
+      "winding_order": true,
+      "shader_config_ref": "basic",
+      "texture": { "filename": "sifter.dds" }
+    },
+    {
+      "id": "shovel",
+      "filename": "shovel.obj",
+      "relative_path": ".\\data\\models\\Beach_Stuff\\",
+      "left_hand": false,
+      "winding_order": true,
+      "shader_config_ref": "basic",
+      "texture": { "filename": "shovel.dds" }
+    },
+    {
+      "id": "palmtree",
+      "filename": "palm_tree.obj",
+      "relative_path": ".\\data\\models\\Palm_Tree\\",
+      "left_hand": false,
+      "winding_order": true,
+      "shader_config_ref": "basic",
+      "texture": { "filename": "palm_tree.dds" }
+    },
+	{
+	  "id": "wall",
+      "filename": "wall.obj",
+      "relative_path": ".\\data\\models\\Wall\\",
+      "left_hand": false,
+      "winding_order": true,
+      "shader_config_ref": "basic",
+      "texture": { "filename": "wall.dds" }
+	}
+  ]
+}

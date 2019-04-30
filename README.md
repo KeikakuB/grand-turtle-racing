@@ -26,7 +26,7 @@ you can now use physx with
 using namespace physx;
 
 ## Compile
-- You can now open the GTAIV.sln file using VS 2017 Community Edition.
+- You can now open the GTA IV.sln file using VS 2017 Community Edition.
 
 ## WARNINGS
 - The game should only be compiled using the Debug configuration because compiling the game using the Release configuration causes the game to run too fast (or you can look into what's causing the issue and fix it).
